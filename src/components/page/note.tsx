@@ -12,8 +12,8 @@ export function Note() {
 
       <div className="px-6 font-semibold">
         {note.note.split("\n").map((line, i) => (
-          <BlurFade delay={0.75 + 0.1 * i} inView>
-            <React.Fragment key={i}>
+          <BlurFade key={i} delay={0.75 + 0.1 * i} inView>
+            <React.Fragment>
               {line}
               <br />
               <br />
