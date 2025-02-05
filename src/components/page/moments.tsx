@@ -26,11 +26,11 @@ function MomentCard({ img, caption }: { img: string; caption: string }) {
 export function Moments() {
   return (
     <div className="container mx-auto justify-center">
-      <BlurFade delay={0.25} inView>
+      <BlurFade delay={0.75} inView>
         <h2 className="text-4xl font-bold text-center mb-4">Moments</h2>
       </BlurFade>
 
-      <BlurFade delay={0.5} inView>
+      <BlurFade delay={0.75} inView>
         <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background">
           <Marquee pauseOnHover className="[--duration:90s]">
             {firstRow.map((moment, i) => (

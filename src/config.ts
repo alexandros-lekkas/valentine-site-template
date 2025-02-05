@@ -1,6 +1,13 @@
+export const layout = {
+  metadata: {
+    title: "I Love You",
+    description: "A love letter to TypeScript",
+  },
+};
+
 export const main = {
   love_who: "TypeScript",
-}
+};
 
 export const moments = [
   {
