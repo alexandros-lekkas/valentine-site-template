@@ -6,6 +6,8 @@ A geeky valentine's day template for your loved ones.
 
 Expressing your love digitally can be hard, but this template can help out!
 
+![Valentine Site Overview](public/overview.gif)
+
 ## Features ✨
 
 - 🌹 **Customizable & Easy to Use** – Personalize text, images, and colors effortlessly.
