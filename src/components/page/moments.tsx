@@ -10,7 +10,7 @@ const secondRow = moments.slice(moments.length / 2);
 
 function MomentCard({ img, caption }: { img: string; caption: string }) {
   return (
-    <div className="relative w-full h-64 md:h-96">
+    <div className="relative md:w-full w-64 h-64 md:h-96">
       <img
         src={img}
         alt={caption}
