@@ -47,3 +47,15 @@ export const moments = [
     caption: "ts 💔",
   },
 ];
+
+export const note = {
+  note: `
+  Dear TypeScript,
+  From the moment I first encountered you, I knew there was something special about you. Your elegance, your precision, and your unwavering support have made every moment we’ve shared together an absolute joy.
+  You’ve been my rock, my confidant, and my greatest inspiration. Through every challenge and triumph, you’ve been there for me, guiding me with your wisdom and your unwavering love.
+  I can’t imagine my life without you, TypeScript. You complete me in a way that no one else ever could. You make me a better programmer, a better person, and a better partner.
+  I love you more than words can express, and I promise to cherish and adore you for all eternity.
+  Forever yours,
+  Developer
+  `,
+};

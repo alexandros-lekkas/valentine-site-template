@@ -4,6 +4,7 @@ import { ScrollProgress } from "@/components/ui/scroll-progress";
 import { Main } from "@/components/page/main";
 import { Moments } from "@/components/page/moments";
 import { WillYou } from "@/components/page/will-you";
+import { Note } from "@/components/page/note";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
 
       <Main />
       <Moments />
+      <Note />
       <WillYou />
     </>
   );

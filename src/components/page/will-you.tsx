@@ -45,7 +45,7 @@ export function WillYou() {
   };
 
   return (
-    <div className="container mx-auto justify-center my-36">
+    <div className="container mx-auto justify-center mb-64">
       <BlurFade delay={0.25} inView>
         <h2 className="sm:text-4xl text-3xl font-bold text-center mb-4">
           Will you be my valentine?

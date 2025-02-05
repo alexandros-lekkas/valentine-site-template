@@ -25,7 +25,7 @@ function MomentCard({ img, caption }: { img: string; caption: string }) {
 
 export function Moments() {
   return (
-    <div className="container mx-auto justify-center">
+    <div className="container mx-auto justify-center mb-36">
       <BlurFade delay={0.75} inView>
         <h2 className="text-4xl font-bold text-center mb-4">Moments</h2>
       </BlurFade>
