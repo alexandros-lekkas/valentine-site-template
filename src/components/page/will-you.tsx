@@ -55,6 +55,7 @@ export function WillYou() {
           <motion.button
             className="rounded-full bg-green-400 px-12 py-2 font-semibold text-xl"
             animate={yesShake ? { y: [-5, 5, -5, 5, 0] } : {}}
+            transition={{ duration: 0.3, repeat: 1 }}
             onClick={handleClick}
           >
             Yes
