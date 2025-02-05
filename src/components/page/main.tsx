@@ -4,11 +4,13 @@ import { Heart } from "@phosphor-icons/react/dist/ssr";
 
 import { SparklesText } from "@/components/ui/sparkles-text";
 
+import { main } from "@/config";
+
 export function Main() {
   return (
-    <div className="container mx-auto justify-center items-center flex flex-col h-[100vh]">
+    <div className="relative mx-auto justify-center items-center flex flex-col h-[75vh] pt-20 overflow-hidden">
       <SparklesText
-        text="I Love You"
+        text={`I Love You ${main.love_who}`}
         colors={{ first: "#F34444", second: "#ED0388" }}
       />
 

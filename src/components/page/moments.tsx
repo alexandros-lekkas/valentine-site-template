@@ -3,8 +3,6 @@ import * as React from "react";
 import { Marquee } from "../ui/marquee";
 import { BlurFade } from "../ui/blur-fade";
 
-import { cn } from "@/lib/utils";
-
 import { moments } from "@/config";
 
 const firstRow = moments.slice(0, moments.length / 2);
@@ -29,7 +27,7 @@ export function Moments() {
   return (
     <div className="container mx-auto justify-center">
       <BlurFade delay={0.25} inView>
-        <h2 className="mb-8 text-4xl font-bold text-center">Moments</h2>
+        <h2 className="text-4xl font-bold text-center mb-4">Moments</h2>
       </BlurFade>
 
       <BlurFade delay={0.5} inView>
@@ -46,8 +44,8 @@ export function Moments() {
             ))}
           </Marquee>
 
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/12 bg-gradient-to-r from-white dark:from-background"></div>
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/12 bg-gradient-to-l from-white dark:from-background"></div>
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-1/12 bg-gradient-to-r from-background dark:from-background"></div>
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-1/12 bg-gradient-to-l from-background dark:from-background"></div>
         </div>
       </BlurFade>
     </div>

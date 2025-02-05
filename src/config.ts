@@ -1,3 +1,7 @@
+export const main = {
+  love_who: "TypeScript",
+}
+
 export const moments = [
   {
     img: "/moments/1.webp",

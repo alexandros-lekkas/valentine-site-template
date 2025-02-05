@@ -10,7 +10,6 @@ export default function Home() {
       <ScrollProgress className="via-red-300 from-pink-600 to-red-600" />
 
       <Main />
-
       <Moments />
     </>
   );
